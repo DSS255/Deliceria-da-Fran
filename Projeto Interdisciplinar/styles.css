@@ -93,8 +93,9 @@ nav a:hover{
 }
 section {
     text-align: center; /* Centraliza o conteúdo */
-    margin-bottom: 220px; /* Adiciona espaço abaixo de cada seção */
+    margin-bottom: 250px; /* Adiciona espaço abaixo de cada seção */
 }
+
 
 .produtos-container {
     display: flex;
