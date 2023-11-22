@@ -91,4 +91,27 @@ ul{
 nav a:hover{
     color:#ffe6d5;
 }
+section {
+    text-align: center; /* Centraliza o conteúdo */
+    margin-bottom: 220px; /* Adiciona espaço abaixo de cada seção */
+}
+
+.produtos-container {
+    display: flex;
+    justify-content: space-around; /* Espaço entre os produtos */
+    flex-wrap: wrap; /* Permite que os produtos quebrem para a próxima linha */
+}
+
+.produto {
+    width: 300px; /* Ajuste a largura conforme necessário */
+    height: 200px; /* Altura fixa para todas as imagens */
+    margin: 10px; /* Adiciona espaço entre os produtos */
+}
+
+.produtos {
+    width: 100%; /* Garante que a imagem ocupe 100% da largura do contêiner */
+    height: 100%; /* Garante que a imagem ocupe 100% da altura do contêiner */
+    object-fit: cover; /* Mantém a proporção original da imagem e a preenche no contêiner */
+    border-radius: 20%;
+}
 
