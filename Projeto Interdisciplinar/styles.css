@@ -1,9 +1,14 @@
-body{
+body {
+    border-radius: 20px; /* Raio para tornar a borda arredondada */
+    padding: 5px; /* Espaçamento interno para evitar que o conteúdo encoste na borda */
+    margin: 0; /* Remova a margem padrão do corpo */
+    box-sizing: border-box; /* Inclua a largura da borda no cálculo do tamanho total */
     background-color:#ffe6d5;
+    width: 100%; /* Garante que o corpo ocupa toda a largura disponível */
 }
-
 footer{
     background-color: #e7a8a4;
+    border-radius: 20px;
 }
 
 .top_nav{
@@ -11,6 +16,7 @@ footer{
     justify-content: space-around;
     align-items:center;
     background-color: #e7a8a4;
+    border-radius: 20px; /* Raio para tornar a borda arredondada */
 }
 
 .icones{
@@ -71,6 +77,7 @@ ul{
 .carousel-inner {
     text-align: center;
     background-color: #e7a8a4;
+    border-radius: 20px;
 }
 
 .carousel-item {
@@ -80,6 +87,7 @@ ul{
 .carousel-control-prev,
 .carousel-control-next {
     background-color: #e7a8a4; /* Cor do ícone da seta */
+    border-radius: 20px;
 }
 
 /* Estilo adicional para destacar as setas ao passar o mouse sobre elas */
@@ -91,7 +99,7 @@ ul{
 nav a:hover{
     color:#ffe6d5;
 }
-section {
+.espac {
     text-align: center; /* Centraliza o conteúdo */
     margin-bottom: 250px; /* Adiciona espaço abaixo de cada seção */
 }
@@ -116,3 +124,37 @@ section {
     border-radius: 20%;
 }
 
+/* Estilo geral da caixa de contato */
+.box_contact {
+    margin-bottom: 20px; /* Espaçamento entre os campos */
+}
+
+#contact{
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: left;
+    font-size: 20px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: none; /* Remova todas as bordas */
+    border-bottom: 1px solid #ccc; /* Adicione uma borda inferior */
+    background-color: inherit;
+    font-size: 20px;
+}
+
+button {
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Cor de fundo ao passar o mouse sobre o botão */
+}
